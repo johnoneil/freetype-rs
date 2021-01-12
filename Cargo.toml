@@ -18,7 +18,8 @@ name = "freetype"
 
 bitflags = "1.0.0"
 libc = "0.2.1"
-freetype-sys = "0.13.1"
+#freetype-sys = "0.13.1"
+freetype-sys = { git = "https://github.com/johnoneil/freetype-sys.git" , rev = "3756fc4ae60f4a8024d99afb5516507b911eb75c" }
 
 [dev-dependencies]
 
